@@ -1,0 +1,56 @@
+<!--
+
+Container Project/home.html
+********************************************************************************
+SALVADOR VILLALON CONTAINER PROJECT
+home.html
+
+This page serves as the simple Web Application that Sreedhar mentioned
+
+
+********************************************************************************
+
+S&P Global Dow Jones Indices
+
+Summer 2018
+Salvador Villalon
+
+
+ -->
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SPGI 2018</title>
+
+    <link rel="icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/reset.css') }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/layout.css') }}">
+
+  </head>
+  <body>
+
+    <!-- *************************************************** -->
+    <!-- Content in middle of page                           -->
+    <!-- *************************************************** -->
+    <div class="container-fluid landing">
+      <div class="row">
+          <div class="col-md-12">
+            <div class="text-center">
+                <h1> Salvador Villalon </h1>
+                <p style="font-size: 30px;"> A Simple Web Application Using Containers</p>
+                <a class="btn btn-default btn-train" href="{{ url_for('container') }}" role="button"> What are Containers?</a>
+                <a class="btn btn-default btn-train" href="{{ url_for('docker') }}" role="button"> What is Docker?</a>
+              </div>
+          </div>
+      </div>
+    </div>
+
+
+  </body>
+</html>

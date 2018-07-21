@@ -1,0 +1,71 @@
+<!--
+
+Container Project/container.html
+********************************************************************************
+SALVADOR VILLALON CONTAINER PROJECT
+container.html
+
+This page serves as the simple Web Application that Sreedhar mentioned
+
+
+********************************************************************************
+
+S&P Global Dow Jones Indices
+
+Summer 2018
+Salvador Villalon
+
+
+ -->
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Simple Container Web Application</title>
+
+    <link rel="icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/reset.css') }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/container.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/layout.css') }}">
+
+  </head>
+  <body>
+
+    <!-- *************************************************** -->
+    <!-- Navbar Home Button                                  -->
+    <!-- *************************************************** -->
+    <nav class="navbar">
+      <a class="btn btn-default btn-train" href="{{ url_for('home') }}" role="button">Home</a>
+    </nav>
+
+    <!-- *************************************************** -->
+    <!-- Content                                             -->
+    <!-- *************************************************** -->
+    <div class="container-fluid info">
+      <div class="row">
+          <div class="col-md-12">
+            <div class="text-center">
+                <h2> What are Containers? </h2>
+            </div>
+            <div class="container">
+                <p> Containers are a solution to the problem of how to get software to run reliably when moved from one computing environment to another. This could be from a developer's laptop to a test environment, from a staging environment into production, and perhaps from a physical machine in a data center to a virtual machine in a private or public cloud. </p>
+                <a class="btn btn-default btn-train" href="https://www.cio.com/article/2924995/software/what-are-containers-and-why-do-you-need-them.html" target="_blank" role="button">Source</a>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <strong><p style="font-size: 30px;">We can use Docker to implement Containers</p></strong>
+                <a class="btn btn-default btn-train" href="{{ url_for('docker') }}" role="button"> What is Docker?</a>
+            </div>
+
+          </div>
+      </div>
+    </div>
+
+  </body>
+</html>

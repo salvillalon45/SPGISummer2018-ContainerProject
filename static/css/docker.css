@@ -1,0 +1,40 @@
+/* -------------------------------------------------
+  Background image for Website
+  ------------------------------------------------- */
+body {
+  background: url("../images/doug_welcome.jpg") fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  background-size: cover;
+  background-color: rgba(10,10,10,0.6);
+  background-blend-mode: overlay;
+}
+
+/* -------------------------------------------------
+  Text
+  ------------------------------------------------- */
+.info {
+    margin-top: 100px;
+}
+
+.info h2 {
+  font-size: 95px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.info p, {
+  color: white;
+  font-size: 20px;
+}
+
+
+
+/* -------------------------------------------------
+  Button
+  ------------------------------------------------- */
+.btn {
+  font-size: 20px;
+  margin-bottom: 30px;
+}

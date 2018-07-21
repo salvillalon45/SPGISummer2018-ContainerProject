@@ -1,0 +1,12 @@
+/* -------------------------------------------------
+  Background image for Website
+  ------------------------------------------------- */
+body {
+  background: url("../images/volunteer.jpg") fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  background-size: cover;
+  background-color: rgba(10,10,10,0.6);
+  background-blend-mode: overlay;
+}
