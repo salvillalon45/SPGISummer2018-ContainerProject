@@ -2,6 +2,7 @@
 [SPGI 2018 Summer] - Project: Containers and Web Application Project
 - A simple web application that explains what Docker and Containers are. This simple web application was used as a test to run inside a 
 Docker Container
+- The container image can be found here: https://hub.docker.com/r/salvillalon45/container_project/
 
 # Summary
 - During my internship, I was tasked with learning about Containers and how to implement them using Docker
@@ -20,4 +21,5 @@ order to understand these tutorials better, I decided to learn Flask
 - Flask
 - Google App Engine (Standard Environment)
 - Git
+- Docker
 
